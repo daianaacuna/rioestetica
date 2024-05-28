@@ -1,8 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
 .banner {
     background-image: url("../assets/banner.jpg");
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+span {
+    font-size: 70px;
+}
+
+main {
+    background-color: #fcb7b7;
+}
+footer {
+    background-color:#fd9797;
+}
+.navbar {
+    background-color: #fd9797;
+}
+.navbar-brand h1 {
+    color: rgb(243, 236, 226);
+
+}
+.navbar a:hover {
+    background-color: rgb(188, 162, 166);
+    color:rgb(243, 236, 226);
+}
+
+.card {
+    background-color:rgb(188, 162, 166);
+}
+
+.card-text {
+    color: rgb(243, 236, 226);
+}
+
+.card-title {
+    color:black;
+    text-decoration:underline;
+}
+
+.btn {
+    background-color:#fd9797;
+}
+    
