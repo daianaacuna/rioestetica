@@ -51,4 +51,57 @@ footer {
 .btn {
     background-color:#fd9797;
 }
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(243, 236, 226);
+}
+
+.copyright p {
+    background-color: rgb(172, 151, 154);
+}
+.img-fluid {
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+h2 {
+    color:black;
+    text-decoration:underline;
+}
+h3 {
+   color:  rgb(243, 236, 226);
+}
+.listasseccionnosotros{
+    list-style-type:square;
+}
+h4 {
+    color:  rgb(243, 236, 226);
+}
+.form-control {
+    background-color:  rgb(243, 236, 226);
+
+}
+
+.accordion-button {
+    background-color:  rgb(172, 151, 154);
+    
+}
+.accordion-body {
+    background-color: rgb(243, 236, 226);
+}
+
+  
+
+
+
+
+
     
