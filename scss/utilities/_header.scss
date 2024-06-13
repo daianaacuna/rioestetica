@@ -1,0 +1,45 @@
+.navbar {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+
+    .nav-link:hover {
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-delay: 0s;
+        transition-timing-function: ease-out;
+        color: $secondarycolor;
+        background-color: $thirdcolor;
+        box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    }
+        
+    
+
+ 
+ 
+
+    .navbar-brand {
+        transition: all 0.5s;
+    }
+
+    .navbar-brand:hover {
+        transform: scale(1.1) translateY(-15px);
+        box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    }
+    
+
+    .navbar-brand h1 {
+        color: $secondarycolor;
+        
+
+        span {
+            font-size: 70px;
+        }
+
+    }
+}
+
+.banner {
+    background-image: url("../assets/banner.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

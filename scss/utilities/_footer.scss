@@ -1,0 +1,34 @@
+footer {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+
+    h4 {
+        color:  $secondarycolor;
+    }   
+
+    ul {
+        list-style-type: none;
+
+        li a {
+            text-decoration: none;
+            color: $secondarycolor;
+        }
+    }
+
+    .copyright p {
+        background-color: rgb(172, 151, 154);
+    }
+
+}
+
+$redes: (
+    fb: blue,
+    ig: rgb(243, 61, 109),
+    yt: red,
+);
+
+@each $redsocial, $colordered in $redes {
+    .social.#{$redsocial} {
+        background-color: $colordered;
+    }
+}
+

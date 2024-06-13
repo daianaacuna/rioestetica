@@ -1,0 +1,18 @@
+.form-control {
+    background-color:  $secondarycolor;
+}
+
+.btn-dark {
+    background-color: $maincolor;
+}
+
+.accordion-item {
+    .accordion-button {
+        background-color:  rgb(172, 151, 154);
+        color: black;
+    }
+    .accordion-body {
+        background-color: $secondarycolor;
+    }
+}
+

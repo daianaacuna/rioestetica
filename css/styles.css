@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar {
+  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+.navbar .nav-link:hover {
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-delay: 0s;
+  transition-timing-function: ease-out;
+  color: rgb(243, 236, 226);
+  background-color: rgb(188, 162, 166);
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+.navbar .navbar-brand {
+  transition: all 0.5s;
+}
+.navbar .navbar-brand:hover {
+  transform: scale(1.1) translateY(-15px);
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+.navbar .navbar-brand h1 {
+  color: rgb(243, 236, 226);
+}
+.navbar .navbar-brand h1 span {
+  font-size: 70px;
+}
+
+.banner {
+  background-image: url("../assets/banner.jpg");
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  background-color: rgb(188, 162, 166);
+}
+
+.card {
+  transition: all 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.1) translateY(-15px);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.card-body .card-text {
+  color: rgb(243, 236, 226);
+}
+.card-body .card-title {
+  color: black;
+  text-decoration: underline;
+}
+.card-body .btn {
+  background-color: #fd9797;
+}
+
+footer {
+  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+footer h4 {
+  color: rgb(243, 236, 226);
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: rgb(243, 236, 226);
+}
+footer .copyright p {
+  background-color: rgb(172, 151, 154);
+}
+
+.social.fb {
+  background-color: blue;
+}
+
+.social.ig {
+  background-color: rgb(243, 61, 109);
+}
+
+.social.yt {
+  background-color: red;
+}
+
+.img-fluid {
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+h4 {
+  color: rgb(243, 236, 226);
+}
+
+.listasseccionnosotros li {
+  list-style-type: square;
+}
+
+.form-control {
+  background-color: rgb(243, 236, 226);
+}
+
+.btn-dark {
+  background-color: #fd9797;
+}
+
+.accordion-item .accordion-button {
+  background-color: rgb(172, 151, 154);
+  color: black;
+}
+.accordion-item .accordion-body {
+  background-color: rgb(243, 236, 226);
+}
+
+main {
+  background-color: #fd9797;
+}
+main h2 {
+  color: black;
+  text-decoration: underline;
+}
+main h3 {
+  color: rgb(243, 236, 226);
+}
+
+.promocorpo:hover {
+  transform: scale(1.2);
+}
+
+.promofac:hover {
+  transform: scale(1.2);
+}
+
+.promodepi:hover {
+  transform: scale(1.05);
+}
+
+/*# sourceMappingURL=styles.css.map */
