@@ -36,7 +36,7 @@ footer {
 }
 
 .card {
-    background-color:rgb(188, 162, 166);
+    background-color:rgb(162, 136, 140);
 }
 
 .card-text {
@@ -78,6 +78,7 @@ h2 {
 }
 h3 {
    color:  rgb(243, 236, 226);
+   text-decoration:line-through; 
 }
 
 .listasseccionnosotros{
