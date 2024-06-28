@@ -18,9 +18,6 @@
   background-color: rgb(188, 162, 166);
   box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }
-.navbar .navbar-brand {
-  transition: all 0.5s;
-}
 .navbar .navbar-brand:hover {
   transform: scale(1.1) translateY(-15px);
   box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
@@ -39,15 +36,11 @@
   background-size: cover;
 }
 
-.card {
+card {
   background-color: rgb(188, 162, 166);
-}
-
-.card {
   transition: all 0.5s;
 }
-
-.card:hover {
+card:hover {
   transform: scale(1.1) translateY(-15px);
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
@@ -59,7 +52,8 @@
   color: black;
   text-decoration: underline;
 }
-.card-body .btn {
+
+.btn {
   background-color: #fd9797;
 }
 
@@ -135,11 +129,9 @@ main h3 {
   color: rgb(243, 236, 226);
 }
 
-.promocorpo:hover {
-  transform: scale(1.2);
-}
-
-.promofac:hover {
+.promocorpo:hover,
+.promofac:hover,
+.promodepi:hover {
   transform: scale(1.2);
 }
 
